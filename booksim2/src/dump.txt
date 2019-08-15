@@ -1,0 +1,242 @@
+1 | node68 | Enqueuing flit 29 (packet 2) at time 1.
+10 | node68 | Injecting flit 29 into subnet 0 at time 10 with priority 0.
+11 | network_0/network_0_fchan_ingress68 | Beginning channel traversal for flit 29 with delay 1.
+11 | network_0/network_0_fchan_ingress68 | Completed channel traversal for flit 29.
+12 | network_0/router_4_4 | Received flit 29 from channel at input 4.
+12 | network_0/router_4_4 | Adding flit 29 to VC 0 at input 4 (state: active, front: 28).
+13 | network_0/router_4_4 | Beginning switch allocation for VC 0 at input 4 (front: 29).
+13 | network_0/router_4_4 |   Requesting output 1.0 (non-spec, pri: 0).
+13 | network_0/router_4_4/sw_allocator | Input requests = [ 8 -> [ 1@0 ]  ], output requests = [ 1 -> [ 8@0 ]  ].
+13 | network_0/router_4_4/sw_allocator | Input grants = [ 8 -> 1  ], output grants = [ 1 -> 8  ].
+13 | network_0/router_4_4 | Assigning output 1.0 to VC 0 at input 4.0.
+13 | network_0/router_4_4 | Completed switch allocation for VC 0 at input 4 (front: 29).
+13 | network_0/router_4_4 |   Scheduling switch connection from input 4.0 to output 1.0.
+14 | network_0/router_4_4 | Beginning crossbar traversal for flit 29 from input 4.0 to output 1.0.
+14 | network_0/router_4_4 | Completed crossbar traversal for flit 29 from input 4.0 to output 1.0.
+14 | network_0/router_4_4 | Buffering flit 29 at output 1.
+14 | network_0/router_4_4 | Sending flit 29 to channel at output 1
+ Count time=0x6f8e60
+ largest delay is TEMPVAR0
+ largest delay is ROUTERDELAY0
+15 | network_0/network_0_fchan_273 | Beginning channel traversal for flit 29 with delay 1.
+15 | network_0/network_0_fchan_273 | Completed channel traversal for flit 29.
+16 | network_0/router_4_3 | Received flit 29 from channel at input 0.
+16 | network_0/router_4_3 | Adding flit 29 to VC 0 at input 0 (state: active, front: 28).
+17 | network_0/router_4_3 | Beginning switch allocation for VC 0 at input 0 (front: 29).
+17 | network_0/router_4_3 |   Requesting output 2.0 (non-spec, pri: 0).
+17 | network_0/router_4_3/sw_allocator | Input requests = [ 0 -> [ 2@0 ]  ], output requests = [ 2 -> [ 0@0 ]  ].
+17 | network_0/router_4_3/sw_allocator | Input grants = [ 0 -> 2  ], output grants = [ 2 -> 0  ].
+17 | network_0/router_4_3 | Assigning output 2.0 to VC 0 at input 0.0.
+17 | network_0/router_4_3 | Completed switch allocation for VC 0 at input 0 (front: 29).
+17 | network_0/router_4_3 |   Scheduling switch connection from input 0.0 to output 2.0.
+18 | network_0/router_4_3 | Beginning crossbar traversal for flit 29 from input 0.0 to output 2.0.
+18 | network_0/router_4_3 | Completed crossbar traversal for flit 29 from input 0.0 to output 2.0.
+18 | network_0/router_4_3 | Buffering flit 29 at output 2.
+18 | network_0/router_4_3 | Sending flit 29 to channel at output 2
+ Count time=0x6f89b0
+ largest delay is TEMPVAR0
+ largest delay is ROUTERDELAY0
+19 | network_0/network_0_fchan_270 | Beginning channel traversal for flit 29 with delay 1.
+19 | network_0/network_0_fchan_270 | Completed channel traversal for flit 29.
+20 | network_0/router_5_3 | Received flit 29 from channel at input 3.
+20 | network_0/router_5_3 | Adding flit 29 to VC 0 at input 3 (state: active, front: 28).
+21 | network_0/router_5_3 | Beginning switch allocation for VC 0 at input 3 (front: 29).
+21 | network_0/router_5_3 |   Requesting output 2.0 (non-spec, pri: 0).
+21 | network_0/router_5_3/sw_allocator | Input requests = [ 6 -> [ 2@0 ]  ], output requests = [ 2 -> [ 6@0 ]  ].
+21 | network_0/router_5_3/sw_allocator | Input grants = [ 6 -> 2  ], output grants = [ 2 -> 6  ].
+21 | network_0/router_5_3 | Assigning output 2.0 to VC 0 at input 3.0.
+21 | network_0/router_5_3 | Completed switch allocation for VC 0 at input 3 (front: 29).
+21 | network_0/router_5_3 |   Scheduling switch connection from input 3.0 to output 2.0.
+22 | network_0/router_5_3 | Beginning crossbar traversal for flit 29 from input 3.0 to output 2.0.
+22 | network_0/router_5_3 | Completed crossbar traversal for flit 29 from input 3.0 to output 2.0.
+22 | network_0/router_5_3 | Buffering flit 29 at output 2.
+22 | network_0/router_5_3 | Sending flit 29 to channel at output 2
+ Count time=0x6fd4b0
+ largest delay is TEMPVAR0
+ largest delay is ROUTERDELAY0
+23 | network_0/network_0_fchan_334 | Beginning channel traversal for flit 29 with delay 1.
+23 | network_0/network_0_fchan_334 | Completed channel traversal for flit 29.
+24 | network_0/router_6_3 | Received flit 29 from channel at input 3.
+24 | network_0/router_6_3 | Adding flit 29 to VC 0 at input 3 (state: active, front: 28).
+25 | network_0/router_6_3 | Beginning switch allocation for VC 0 at input 3 (front: 29).
+25 | network_0/router_6_3 |   Requesting output 2.0 (non-spec, pri: 0).
+25 | network_0/router_6_3/sw_allocator | Input requests = [ 4 -> [ 3@0 ]  6 -> [ 2@0 ]  ], output requests = [ 2 -> [ 6@0 ]  3 -> [ 4@0 ]  ].
+25 | network_0/router_6_3/sw_allocator | Input grants = [ 4 -> 3  6 -> 2  ], output grants = [ 2 -> 6  3 -> 4  ].
+25 | network_0/router_6_3 | Assigning output 2.0 to VC 0 at input 3.0.
+25 | network_0/router_6_3 | Completed switch allocation for VC 0 at input 3 (front: 29).
+25 | network_0/router_6_3 |   Scheduling switch connection from input 3.0 to output 2.0.
+26 | network_0/router_6_3 | Beginning crossbar traversal for flit 29 from input 3.0 to output 2.0.
+26 | network_0/router_6_3 | Completed crossbar traversal for flit 29 from input 3.0 to output 2.0.
+26 | network_0/router_6_3 | Buffering flit 29 at output 2.
+26 | network_0/router_6_3 | Sending flit 29 to channel at output 2
+ Count time=0x701fb0
+ largest delay is TEMPVAR0
+ largest delay is ROUTERDELAY0
+27 | network_0/network_0_fchan_398 | Beginning channel traversal for flit 29 with delay 1.
+27 | network_0/network_0_fchan_398 | Completed channel traversal for flit 29.
+28 | network_0/router_7_3 | Received flit 29 from channel at input 3.
+28 | network_0/router_7_3 | Adding flit 29 to VC 0 at input 3 (state: active, front: 28).
+29 | network_0/router_7_3 | Beginning switch allocation for VC 0 at input 3 (front: 29).
+29 | network_0/router_7_3 |   Requesting output 2.0 (non-spec, pri: 0).
+29 | network_0/router_7_3/sw_allocator | Input requests = [ 6 -> [ 2@0 ]  ], output requests = [ 2 -> [ 6@0 ]  ].
+29 | network_0/router_7_3/sw_allocator | Input grants = [ 6 -> 2  ], output grants = [ 2 -> 6  ].
+29 | network_0/router_7_3 | Assigning output 2.0 to VC 0 at input 3.0.
+29 | network_0/router_7_3 | Completed switch allocation for VC 0 at input 3 (front: 29).
+29 | network_0/router_7_3 |   Scheduling switch connection from input 3.0 to output 2.0.
+30 | network_0/router_7_3 | Beginning crossbar traversal for flit 29 from input 3.0 to output 2.0.
+30 | network_0/router_7_3 | Completed crossbar traversal for flit 29 from input 3.0 to output 2.0.
+30 | network_0/router_7_3 | Buffering flit 29 at output 2.
+30 | network_0/router_7_3 | Sending flit 29 to channel at output 2
+ Count time=0x706ab0
+ largest delay is TEMPVAR0
+ largest delay is ROUTERDELAY0
+31 | network_0/network_0_fchan_462 | Beginning channel traversal for flit 29 with delay 1.
+31 | network_0/network_0_fchan_462 | Completed channel traversal for flit 29.
+32 | network_0/router_8_3 | Received flit 29 from channel at input 3.
+32 | network_0/router_8_3 | Adding flit 29 to VC 0 at input 3 (state: active, front: 28).
+33 | network_0/router_8_3 | Beginning switch allocation for VC 0 at input 3 (front: 29).
+33 | network_0/router_8_3 |   Requesting output 2.0 (non-spec, pri: 0).
+33 | network_0/router_8_3/sw_allocator | Input requests = [ 6 -> [ 2@0 ]  ], output requests = [ 2 -> [ 6@0 ]  ].
+33 | network_0/router_8_3/sw_allocator | Input grants = [ 6 -> 2  ], output grants = [ 2 -> 6  ].
+33 | network_0/router_8_3 | Assigning output 2.0 to VC 0 at input 3.0.
+33 | network_0/router_8_3 | Completed switch allocation for VC 0 at input 3 (front: 29).
+33 | network_0/router_8_3 |   Scheduling switch connection from input 3.0 to output 2.0.
+34 | network_0/router_8_3 | Beginning crossbar traversal for flit 29 from input 3.0 to output 2.0.
+34 | network_0/router_8_3 | Completed crossbar traversal for flit 29 from input 3.0 to output 2.0.
+34 | network_0/router_8_3 | Buffering flit 29 at output 2.
+34 | network_0/router_8_3 | Sending flit 29 to channel at output 2
+ Count time=0x70b5b0
+ largest delay is TEMPVAR0
+ largest delay is ROUTERDELAY0
+35 | network_0/network_0_fchan_526 | Beginning channel traversal for flit 29 with delay 1.
+35 | network_0/network_0_fchan_526 | Completed channel traversal for flit 29.
+36 | network_0/router_9_3 | Received flit 29 from channel at input 3.
+36 | network_0/router_9_3 | Adding flit 29 to VC 0 at input 3 (state: active, front: 28).
+37 | network_0/router_9_3 | Beginning switch allocation for VC 0 at input 3 (front: 29).
+37 | network_0/router_9_3 |   Requesting output 2.0 (non-spec, pri: 0).
+37 | network_0/router_9_3/sw_allocator | Input requests = [ 6 -> [ 2@0 ]  ], output requests = [ 2 -> [ 6@0 ]  ].
+37 | network_0/router_9_3/sw_allocator | Input grants = [ 6 -> 2  ], output grants = [ 2 -> 6  ].
+37 | network_0/router_9_3 | Assigning output 2.0 to VC 0 at input 3.0.
+37 | network_0/router_9_3 | Completed switch allocation for VC 0 at input 3 (front: 29).
+37 | network_0/router_9_3 |   Scheduling switch connection from input 3.0 to output 2.0.
+38 | network_0/router_9_3 | Beginning crossbar traversal for flit 29 from input 3.0 to output 2.0.
+38 | network_0/router_9_3 | Completed crossbar traversal for flit 29 from input 3.0 to output 2.0.
+38 | network_0/router_9_3 | Buffering flit 29 at output 2.
+38 | network_0/router_9_3 | Sending flit 29 to channel at output 2
+ Count time=0x7100b0
+ largest delay is TEMPVAR0
+ largest delay is ROUTERDELAY0
+39 | network_0/network_0_fchan_590 | Beginning channel traversal for flit 29 with delay 1.
+39 | network_0/network_0_fchan_590 | Completed channel traversal for flit 29.
+40 | network_0/router_10_3 | Received flit 29 from channel at input 3.
+40 | network_0/router_10_3 | Adding flit 29 to VC 0 at input 3 (state: active, front: 28).
+41 | network_0/router_10_3 | Beginning switch allocation for VC 0 at input 3 (front: 29).
+41 | network_0/router_10_3 |   Requesting output 2.0 (non-spec, pri: 0).
+41 | network_0/router_10_3/sw_allocator | Input requests = [ 0 -> [ 1@0 ]  6 -> [ 2@0 ]  ], output requests = [ 1 -> [ 0@0 ]  2 -> [ 6@0 ]  ].
+41 | network_0/router_10_3/sw_allocator | Input grants = [ 0 -> 1  6 -> 2  ], output grants = [ 1 -> 0  2 -> 6  ].
+41 | network_0/router_10_3 | Assigning output 2.0 to VC 0 at input 3.0.
+41 | network_0/router_10_3 | Completed switch allocation for VC 0 at input 3 (front: 29).
+41 | network_0/router_10_3 |   Scheduling switch connection from input 3.0 to output 2.0.
+42 | network_0/router_10_3 | Beginning crossbar traversal for flit 29 from input 3.0 to output 2.0.
+42 | network_0/router_10_3 | Completed crossbar traversal for flit 29 from input 3.0 to output 2.0.
+42 | network_0/router_10_3 | Buffering flit 29 at output 2.
+42 | network_0/router_10_3 | Sending flit 29 to channel at output 2
+ Count time=0x714bb0
+ largest delay is TEMPVAR0
+ largest delay is ROUTERDELAY0
+43 | network_0/network_0_fchan_654 | Beginning channel traversal for flit 29 with delay 1.
+43 | network_0/network_0_fchan_654 | Completed channel traversal for flit 29.
+44 | network_0/router_11_3 | Received flit 29 from channel at input 3.
+44 | network_0/router_11_3 | Adding flit 29 to VC 0 at input 3 (state: active, front: 28).
+45 | network_0/router_11_3 | Beginning switch allocation for VC 0 at input 3 (front: 29).
+45 | network_0/router_11_3 |   Requesting output 2.0 (non-spec, pri: 0).
+45 | network_0/router_11_3/sw_allocator | Input requests = [ 4 -> [ 3@0 ]  6 -> [ 2@0 ]  ], output requests = [ 2 -> [ 6@0 ]  3 -> [ 4@0 ]  ].
+45 | network_0/router_11_3/sw_allocator | Input grants = [ 4 -> 3  6 -> 2  ], output grants = [ 2 -> 6  3 -> 4  ].
+45 | network_0/router_11_3 | Assigning output 2.0 to VC 0 at input 3.0.
+45 | network_0/router_11_3 | Completed switch allocation for VC 0 at input 3 (front: 29).
+45 | network_0/router_11_3 |   Scheduling switch connection from input 3.0 to output 2.0.
+46 | network_0/router_11_3 | Beginning crossbar traversal for flit 29 from input 3.0 to output 2.0.
+46 | network_0/router_11_3 | Completed crossbar traversal for flit 29 from input 3.0 to output 2.0.
+46 | network_0/router_11_3 | Buffering flit 29 at output 2.
+46 | network_0/router_11_3 | Sending flit 29 to channel at output 2
+ Count time=0x7196b0
+ largest delay is TEMPVAR0
+ largest delay is ROUTERDELAY0
+47 | network_0/network_0_fchan_718 | Beginning channel traversal for flit 29 with delay 1.
+47 | network_0/network_0_fchan_718 | Completed channel traversal for flit 29.
+48 | network_0/router_12_3 | Received flit 29 from channel at input 3.
+48 | network_0/router_12_3 | Adding flit 29 to VC 0 at input 3 (state: active, front: 28).
+49 | network_0/router_12_3 | Beginning switch allocation for VC 0 at input 3 (front: 29).
+49 | network_0/router_12_3 |   Requesting output 2.0 (non-spec, pri: 0).
+49 | network_0/router_12_3/sw_allocator | Input requests = [ 5 -> [ 3@0 ]  6 -> [ 2@0 ]  ], output requests = [ 2 -> [ 6@0 ]  3 -> [ 5@0 ]  ].
+49 | network_0/router_12_3/sw_allocator | Input grants = [ 5 -> 3  6 -> 2  ], output grants = [ 2 -> 6  3 -> 5  ].
+49 | network_0/router_12_3 | Assigning output 2.0 to VC 0 at input 3.0.
+49 | network_0/router_12_3 | Completed switch allocation for VC 0 at input 3 (front: 29).
+49 | network_0/router_12_3 |   Scheduling switch connection from input 3.0 to output 2.0.
+50 | network_0/router_12_3 | Beginning crossbar traversal for flit 29 from input 3.0 to output 2.0.
+50 | network_0/router_12_3 | Completed crossbar traversal for flit 29 from input 3.0 to output 2.0.
+50 | network_0/router_12_3 | Buffering flit 29 at output 2.
+50 | network_0/router_12_3 | Sending flit 29 to channel at output 2
+ Count time=0x71e1b0
+ largest delay is TEMPVAR0
+ largest delay is ROUTERDELAY0
+51 | network_0/network_0_fchan_782 | Beginning channel traversal for flit 29 with delay 1.
+51 | network_0/network_0_fchan_782 | Completed channel traversal for flit 29.
+52 | network_0/router_13_3 | Received flit 29 from channel at input 3.
+52 | network_0/router_13_3 | Adding flit 29 to VC 0 at input 3 (state: active, front: 28).
+53 | network_0/router_13_3 | Beginning switch allocation for VC 0 at input 3 (front: 29).
+53 | network_0/router_13_3 |   Requesting output 2.0 (non-spec, pri: 0).
+53 | network_0/router_13_3/sw_allocator | Input requests = [ 6 -> [ 2@0 ]  ], output requests = [ 2 -> [ 6@0 ]  ].
+53 | network_0/router_13_3/sw_allocator | Input grants = [ 6 -> 2  ], output grants = [ 2 -> 6  ].
+53 | network_0/router_13_3 | Assigning output 2.0 to VC 0 at input 3.0.
+53 | network_0/router_13_3 | Completed switch allocation for VC 0 at input 3 (front: 29).
+53 | network_0/router_13_3 |   Scheduling switch connection from input 3.0 to output 2.0.
+54 | network_0/router_13_3 | Beginning crossbar traversal for flit 29 from input 3.0 to output 2.0.
+54 | network_0/router_13_3 | Completed crossbar traversal for flit 29 from input 3.0 to output 2.0.
+54 | network_0/router_13_3 | Buffering flit 29 at output 2.
+54 | network_0/router_13_3 | Sending flit 29 to channel at output 2
+ Count time=0x722cb0
+ largest delay is TEMPVAR0
+ largest delay is ROUTERDELAY0
+55 | network_0/network_0_fchan_846 | Beginning channel traversal for flit 29 with delay 1.
+55 | network_0/network_0_fchan_846 | Completed channel traversal for flit 29.
+56 | network_0/router_14_3 | Received flit 29 from channel at input 3.
+56 | network_0/router_14_3 | Adding flit 29 to VC 0 at input 3 (state: active, front: 28).
+57 | network_0/router_14_3 | Beginning switch allocation for VC 0 at input 3 (front: 29).
+57 | network_0/router_14_3 |   Requesting output 2.0 (non-spec, pri: 0).
+57 | network_0/router_14_3/sw_allocator | Input requests = [ 6 -> [ 2@0 ]  ], output requests = [ 2 -> [ 6@0 ]  ].
+57 | network_0/router_14_3/sw_allocator | Input grants = [ 6 -> 2  ], output grants = [ 2 -> 6  ].
+57 | network_0/router_14_3 | Assigning output 2.0 to VC 0 at input 3.0.
+57 | network_0/router_14_3 | Completed switch allocation for VC 0 at input 3 (front: 29).
+57 | network_0/router_14_3 |   Scheduling switch connection from input 3.0 to output 2.0.
+58 | network_0/router_14_3 | Beginning crossbar traversal for flit 29 from input 3.0 to output 2.0.
+58 | network_0/router_14_3 | Completed crossbar traversal for flit 29 from input 3.0 to output 2.0.
+58 | network_0/router_14_3 | Buffering flit 29 at output 2.
+58 | network_0/router_14_3 | Sending flit 29 to channel at output 2
+ Count time=0x7277b0
+ largest delay is TEMPVAR0
+ largest delay is ROUTERDELAY0
+59 | network_0/network_0_fchan_910 | Beginning channel traversal for flit 29 with delay 1.
+59 | network_0/network_0_fchan_910 | Completed channel traversal for flit 29.
+60 | network_0/router_15_3 | Received flit 29 from channel at input 3.
+60 | network_0/router_15_3 | Adding flit 29 to VC 0 at input 3 (state: active, front: 28).
+61 | network_0/router_15_3 | Beginning switch allocation for VC 0 at input 3 (front: 29).
+61 | network_0/router_15_3 |   Requesting output 4.0 (non-spec, pri: 0).
+61 | network_0/router_15_3/sw_allocator | Input requests = [ 6 -> [ 4@0 ]  ], output requests = [ 4 -> [ 6@0 ]  ].
+61 | network_0/router_15_3/sw_allocator | Input grants = [ 6 -> 4  ], output grants = [ 4 -> 6  ].
+61 | network_0/router_15_3 | Assigning output 4.0 to VC 0 at input 3.0.
+61 | network_0/router_15_3 | Completed switch allocation for VC 0 at input 3 (front: 29).
+61 | network_0/router_15_3 |   Scheduling switch connection from input 3.0 to output 4.0.
+62 | network_0/router_15_3 | Beginning crossbar traversal for flit 29 from input 3.0 to output 4.0.
+62 | network_0/router_15_3 | Completed crossbar traversal for flit 29 from input 3.0 to output 4.0.
+62 | network_0/router_15_3 | Buffering flit 29 at output 4.
+62 | network_0/router_15_3 | Sending flit 29 to channel at output 4
+ Count time=0x72c2b0
+ largest delay is TEMPVAR0
+ largest delay is ROUTERDELAY0
+63 | network_0/network_0_fchan_egress243 | Beginning channel traversal for flit 29 with delay 1.
+63 | network_0/network_0_fchan_egress243 | Completed channel traversal for flit 29.
+64 | node243 | Ejecting flit 29 (packet 2) from VC 0.
+64 | node243 | Injecting credit for VC 0 into subnet 0.
+64 | node243 | Retiring flit 29 (packet 2, src = 68, dest = -1, hops = 13, flat = 54).
+64 | node243 | Retiring packet 2 (plat = 63, nlat = 63, frag = 0, src = 68, dest = 243).
